@@ -1,4 +1,4 @@
-package com.reactnativephoneselector
+package ua.kyivstar.reactnativephoneselector
 
 import com.facebook.react.ReactPackage
 import com.facebook.react.bridge.NativeModule

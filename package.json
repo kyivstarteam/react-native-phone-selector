@@ -1,5 +1,5 @@
 {
-  "name": "react-native-phone-selector",
+  "name": "@kyivstarteam/react-native-phone-selector",
   "version": "1.0.0",
   "description": "Phone Selector API for Android",
   "react-native": "src/index",

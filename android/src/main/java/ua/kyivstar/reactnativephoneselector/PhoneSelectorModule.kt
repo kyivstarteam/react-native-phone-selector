@@ -1,4 +1,4 @@
-package com.reactnativephoneselector
+package ua.kyivstar.reactnativephoneselector
 
 import android.app.Activity
 import android.app.Activity.RESULT_OK
