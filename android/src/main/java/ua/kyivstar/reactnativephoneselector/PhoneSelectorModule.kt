@@ -59,7 +59,7 @@ class PhoneSelectorModule(reactContext: ReactApplicationContext) : ReactContextB
   }
 
   private val mActivityEventListener: ActivityEventListener = object : BaseActivityEventListener() {
-    override fun onActivityResult(activity: Activity, requestCode: Int, resultCode: Int, intent: Intent) {
+    override fun onActivityResult(activity: Activity, requestCode: Int, resultCode: Int, intent: Intent?) {
       when (requestCode) {
         1243 -> {
           if (resultCode == RESULT_OK) {
