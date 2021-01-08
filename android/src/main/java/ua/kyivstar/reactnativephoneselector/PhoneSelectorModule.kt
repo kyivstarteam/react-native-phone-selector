@@ -64,7 +64,7 @@ class PhoneSelectorModule(reactContext: ReactApplicationContext) : ReactContextB
         1243 -> {
           if (resultCode == RESULT_OK) {
             try {
-              val credential = intent.getParcelableExtra<Credential>(Credential.EXTRA_KEY)
+              val credential = intent?.getParcelableExtra<Credential>(Credential.EXTRA_KEY)
               if (credential != null) {
                 val mobNumber: String = credential.getId()
                 val map = Arguments.createMap()
